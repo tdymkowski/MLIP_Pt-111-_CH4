@@ -1,9 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import numpy as np
-from scipy.constants import physical_constants as phc
 
-from ase import Atoms
 from ase.build import fcc111, molecule, add_adsorbate
 from ase.io import write
 
