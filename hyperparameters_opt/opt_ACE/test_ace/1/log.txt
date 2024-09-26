@@ -1,0 +1,65 @@
+2024-09-26 09:54:31,813 I - Start pacemaker
+2024-09-26 09:54:31,813 I - Hostname: host15.tc.lic.leidenuniv.nl
+2024-09-26 09:54:31,814 I - Username: tomasz
+2024-09-26 09:54:31,814 I - pacemaker/pyace version: 0.2.7+163.g0ad96ce
+2024-09-26 09:54:31,814 I - ace_evaluator   version: 2023.11.25
+2024-09-26 09:54:31,814 I - Loading xpot-ace.yaml... 
+2024-09-26 09:54:31,825 I - Set numpy random seed to 42
+2024-09-26 09:54:32,436 I - Number of functions in target potential is limited to maximum 838 functions per element  for 3 elements (12 blocks)
+2024-09-26 09:54:32,436 I - Resulted potential contains 2085 functions
+2024-09-26 09:54:32,436 I - Target potential shape constructed from dictionary, it contains 2085 functions
+2024-09-26 09:54:34,066 I - tensorpot_version: 0+untagged.21.g6cbf1eb
+2024-09-26 09:54:34,066 I - User name automatically identified: tomasz
+2024-09-26 09:54:34,066 I - Search for dataset file(s): ['/home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_full.pckl.gzip']
+2024-09-26 09:54:34,066 I - #1/1: try to load /home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_full.pckl.gzip
+2024-09-26 09:54:34,066 I - Loading dataframe from pickle file /home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_full.pckl.gzip (1.9MiB)
+2024-09-26 09:54:34,112 I -  1000 structures found
+2024-09-26 09:54:34,138 I - Processing structures dataframe. Shape: (1000, 7)
+2024-09-26 09:54:34,139 I - Total number of atoms: 50000
+2024-09-26 09:54:34,139 I - Mean number of atoms per structure: 50.0
+2024-09-26 09:54:34,142 I - Reference energy is provided, constructing 'energy_corrected'
+2024-09-26 09:54:34,142 I - Computing least-square energy shift and correction
+2024-09-26 09:54:34,185 I - Computed single-atom reference energy: {'C': -0.06674426294360986, 'H': -0.26697705177444137, 'Pt': -3.003491832462429, 'shift': 0.06443987298298623}
+2024-09-26 09:54:34,206 I - Min/max energy per atom: [-0.005, 0.676] eV/atom
+2024-09-26 09:54:34,206 I - Min/max abs energy per atom: [0.000, 0.676] eV/atom
+2024-09-26 09:54:34,388 I - Attaching SinglePointCalculator to ASE atoms...done
+2024-09-26 09:54:34,389 I - Construction of neighbour lists...
+2024-09-26 09:54:34,389 I - Building 'tp_atoms' (dataset size 1000, cutoff=3.229A)...
+2024-09-26 09:54:35,036 I - Dataframe size after transform: 1000
+2024-09-26 09:54:35,037 I - Construction of neighbour lists...done within 0.648 sec (0.013 ms/atom)
+2024-09-26 09:54:35,037 I - Search for dataset file(s): ['/home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_test.pckl.gzip']
+2024-09-26 09:54:35,037 I - #1/1: try to load /home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_test.pckl.gzip
+2024-09-26 09:54:35,037 I - Loading dataframe from pickle file /home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_test.pckl.gzip (478.5KiB)
+2024-09-26 09:54:35,069 I -  250 structures found
+2024-09-26 09:54:35,077 I - Processing structures dataframe. Shape: (250, 7)
+2024-09-26 09:54:35,077 I - Total number of atoms: 12500
+2024-09-26 09:54:35,077 I - Mean number of atoms per structure: 50.0
+2024-09-26 09:54:35,081 I - Reference energy is provided, constructing 'energy_corrected'
+2024-09-26 09:54:35,081 I - Using {'C': -0.06674426294360986, 'H': -0.26697705177444137, 'Pt': -3.003491832462429, 'shift': 0.06443987298298623} as single-atom energies
+2024-09-26 09:54:35,096 I - Min/max energy per atom: [-0.003, 0.491] eV/atom
+2024-09-26 09:54:35,096 I - Min/max abs energy per atom: [0.000, 0.491] eV/atom
+2024-09-26 09:54:35,120 I - Attaching SinglePointCalculator to ASE atoms...done
+2024-09-26 09:54:35,120 I - Construction of neighbour lists...
+2024-09-26 09:54:35,120 I - Building 'tp_atoms' (dataset size 250, cutoff=3.229A)...
+2024-09-26 09:54:35,282 I - Dataframe size after transform: 250
+2024-09-26 09:54:35,282 I - Construction of neighbour lists...done within 0.163 sec (0.013 ms/atom)
+2024-09-26 09:54:35,285 I - No weighting policy is specified, setting default weighting policy
+2024-09-26 09:54:35,285 I - Apply weights policy: UniformWeightingPolicy()
+2024-09-26 09:54:35,568 I - Saving 'reference_energy' to potential metadata
+2024-09-26 09:54:36,027 I - Dataset saved into fitting_data_info.pckl.gzip
+2024-09-26 09:54:36,135 I - Dataset saved into test_data_info.pckl.gzip
+2024-09-26 09:54:36,135 I - Plotting train energy-forces distribution
+2024-09-26 09:54:37,091 I - Plotting test energy-forces distribution
+2024-09-26 09:54:37,785 I - LossFunctionSpecification:kappa automatically selected: kappa = 0.002
+2024-09-26 09:54:38,119 I - Fitting dataset size: 1000 structures / 50000 atoms
+2024-09-26 09:54:38,134 I - Test dataset size: 250 structures / 12500 atoms
+2024-09-26 09:54:38,134 I - 'Single-shot' fitting
+2024-09-26 09:54:38,134 I - Cycle fitting loop
+2024-09-26 09:54:38,135 I - Number of fit attempts: 0/1
+2024-09-26 09:54:38,135 I - Total number of functions: 2085 / number of parameters: 5574
+2024-09-26 09:54:38,135 I - Running fit backend
+2024-09-26 09:54:38,258 I - Trainable parameters: {('C',): ['func', 'radial'], ('H',): ['func', 'radial'], ('Pt',): ['func', 'radial'], ('C', 'H'): ['func', 'radial'], ('C', 'Pt'): ['func', 'radial'], ('H', 'C'): ['func', 'radial'], ('H', 'Pt'): ['func', 'radial'], ('Pt', 'C'): ['func', 'radial'], ('Pt', 'H'): ['func', 'radial'], ('C', 'H', 'Pt'): ['func'], ('H', 'C', 'Pt'): ['func'], ('Pt', 'C', 'H'): ['func']}
+2024-09-26 09:54:38,422 I - Loss function specification: LossFunctionSpecification(kappa=0.0015240827291334975, L1=1e-08, L2=1e-08, DeltaRad=(1e-08, 1e-08, 1e-08), w_orth=0)
+2024-09-26 09:54:38,422 I - Batch size: 10
+2024-09-26 09:54:39,329 I - Minimizer options: {'gtol': 1e-08, 'disp': True, 'maxiter': 10}
+2024-09-26 09:56:57,484 W - Calling GradientTape.gradient on a persistent tape inside its context is significantly less efficient than calling it outside the context (it causes the gradient ops to be recorded on the tape, leading to increased CPU and memory usage). Only call GradientTape.gradient inside the context if you actually want to trace the gradient in order to compute higher order derivatives.

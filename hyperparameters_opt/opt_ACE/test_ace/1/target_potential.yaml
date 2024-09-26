@@ -1,0 +1,2251 @@
+metadata:
+  ace_evaluator_version: 2023.11.25
+  pacemaker_version: 0.2.7+163.g0ad96ce
+  reference_energy: "{\"C\": -0.06674426294360986, \"H\": -0.26697705177444137, \"Pt\": -3.003491832462429, \"shift\": 0.06443987298298623}"
+  starttime: 2024-09-26 09:54:34.066162
+  tensorpot_version: 0+untagged.21.g6cbf1eb
+  user: tomasz
+global:
+  DeltaSplineBins: 0.001
+species:
+  - speciesblock: C
+    ndensityi: 2
+    npoti: FinnisSinclairShiftedScaled
+    parameters: [1, 1, 1, 0.5]
+    rho_core_cut: 3000
+    drho_core_cut: 500
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 15
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: C C, nr: [1], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [2], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [3], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [4], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [5], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [6], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [7], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [8], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [9], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [10], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [11], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [12], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [13], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [14], nl: [0], c: [0, 0]}
+      - {type: C C, nr: [15], nl: [0], c: [0, 0]}
+      - {type: C C C, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C C, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C C, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C C, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C C, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C C, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C C, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C C, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C C, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C C, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C C, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C C, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C C, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C C, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C C, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C C, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C C, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C C, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C C, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C C, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C C, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C C, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C C, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C C, nr: [3, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [1, 2, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C C, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C, nr: [2, 2, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C C C, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C C C, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C C C, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+  - speciesblock: H
+    ndensityi: 2
+    npoti: FinnisSinclairShiftedScaled
+    parameters: [1, 1, 1, 0.5]
+    rho_core_cut: 3000
+    drho_core_cut: 500
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 15
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: H H, nr: [1], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [2], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [3], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [4], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [5], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [6], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [7], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [8], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [9], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [10], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [11], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [12], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [13], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [14], nl: [0], c: [0, 0]}
+      - {type: H H, nr: [15], nl: [0], c: [0, 0]}
+      - {type: H H H, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H H H, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H H H, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H H H, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H H H, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H H H, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H H H, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H H H, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H H H, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H H H, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H H H, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H H H, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H H H, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H H H, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H H H, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H H H, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H H H, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H H H, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H H H, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H H H, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H H H, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H H H, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H H H, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H H H, nr: [3, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [1, 2, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H H, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H, nr: [2, 2, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H H H H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H H H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+  - speciesblock: Pt
+    ndensityi: 2
+    npoti: FinnisSinclairShiftedScaled
+    parameters: [1, 1, 1, 0.5]
+    rho_core_cut: 3000
+    drho_core_cut: 500
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 15
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: Pt Pt, nr: [1], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [2], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [3], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [4], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [5], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [6], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [7], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [8], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [9], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [10], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [11], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [12], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [13], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [14], nl: [0], c: [0, 0]}
+      - {type: Pt Pt, nr: [15], nl: [0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt Pt Pt, nr: [3, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [1, 2, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt, nr: [2, 2, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+  - speciesblock: C H
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 1.0900000000000001
+    dcutij: 0.078189409027004178
+    NameOfCutoffFunctionij: cos
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 12
+    radbase: SBessel
+    radparameters: [2.6509131087954745]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: C H, nr: [1], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [2], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [3], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [4], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [5], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [6], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [7], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [8], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [9], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [10], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [11], nl: [0], c: [0, 0]}
+      - {type: C H, nr: [12], nl: [0], c: [0, 0]}
+      - {type: C C H, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C H H, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C H H, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C H H, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C H H, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C H H, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C H H, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C H H, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C H H, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C H H, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C H H, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C H H, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C H H, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C H H, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C H H, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C H H, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C H H, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C H H, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C H H, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C H H, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C H H, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C H, nr: [3, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C H, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C H H, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C H, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C H H, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C H, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C H H, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C H H H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H H, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H H, nr: [2, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C H, nr: [2, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C H H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C H H H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C C H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C H H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C H H H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H H, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C C C H, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: C C H H H, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C C H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C H H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C H H H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [2, 2], c: [0, 0]}
+  - speciesblock: C Pt
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 12
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: C Pt, nr: [1], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [2], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [3], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [4], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [5], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [6], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [7], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [8], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [9], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [10], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [11], nl: [0], c: [0, 0]}
+      - {type: C Pt, nr: [12], nl: [0], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C Pt Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C Pt Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C Pt Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C C Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C Pt Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C Pt Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C Pt Pt, nr: [2, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C C Pt, nr: [2, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C C C Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C C Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C C C Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: C C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C C Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [2, 2], c: [0, 0]}
+  - speciesblock: H C
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 1.0900000000000001
+    dcutij: 0.078189409027004178
+    NameOfCutoffFunctionij: cos
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 12
+    radbase: SBessel
+    radparameters: [2.6509131087954745]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: H C, nr: [1], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [2], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [3], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [4], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [5], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [6], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [7], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [8], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [9], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [10], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [11], nl: [0], c: [0, 0]}
+      - {type: H C, nr: [12], nl: [0], c: [0, 0]}
+      - {type: H C C, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C C, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C C, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C C, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C C, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C C, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C C, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C C, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C C, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C C, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C C, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C C, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C C, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C C, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C C, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C C, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C C, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C C, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C C, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C C, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C H, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [3, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C C, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C H, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C C, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C H, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C C, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C H, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C C C, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C C, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H H, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C H, nr: [2, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C C, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C C H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C H H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C C C, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C C H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C H H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H H, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C C C H, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: H C H H H, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C C C, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C C H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C H H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [2, 2], c: [0, 0]}
+  - speciesblock: H Pt
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 12
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: H Pt, nr: [1], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [2], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [3], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [4], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [5], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [6], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [7], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [8], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [9], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [10], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [11], nl: [0], c: [0, 0]}
+      - {type: H Pt, nr: [12], nl: [0], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H Pt Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H Pt Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H Pt Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H H Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H Pt Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H Pt Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H H Pt Pt, nr: [2, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H H H Pt, nr: [2, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H H H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H H H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H H H H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: H H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H H H H Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H Pt Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [2, 2], c: [0, 0]}
+  - speciesblock: Pt C
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 12
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: Pt C, nr: [1], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [2], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [3], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [4], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [5], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [6], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [7], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [8], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [9], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [10], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [11], nl: [0], c: [0, 0]}
+      - {type: Pt C, nr: [12], nl: [0], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C C, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C C, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C C, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C C, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C C, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C Pt Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C Pt, nr: [2, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C C, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C C Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C C C, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C C Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C C C Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C C C, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C C Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [2, 2], c: [0, 0]}
+  - speciesblock: Pt H
+    nradmaxi: 3
+    lmaxi: 3
+    rcutij: 3.2291637642679563
+    dcutij: 0.01089751666598229
+    NameOfCutoffFunctionij: ""
+    r_in: 0
+    delta_in: 0
+    inner_cutoff_type: distance
+    nradbaseij: 12
+    radbase: SBessel
+    radparameters: [6.3716514215183837]
+    radcoefficients: [[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]]]
+    core-repulsion: [0, 0]
+    nbody:
+      - {type: Pt H, nr: [1], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [2], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [3], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [4], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [5], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [6], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [7], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [8], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [9], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [10], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [11], nl: [0], c: [0, 0]}
+      - {type: Pt H, nr: [12], nl: [0], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H H, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H H, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [2, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt H H, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt H H, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt H H, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 1, 2], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H H, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H Pt Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt H H Pt, nr: [2, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt H H H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt H H H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: Pt H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H H H, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H H Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 1, 1], lint: [2, 2], c: [0, 0]}
+  - speciesblock: C H Pt
+    nbody:
+      - {type: C H Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: C H Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C H Pt Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: C C H Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C H H Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: C C C H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C H H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C H H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: C C C H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C H H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C C H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: C C H H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: C H H H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: C C H H Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C H Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: C C H H Pt, nr: [1, 1, 1, 1], nl: [1, 0, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: C C C H Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C C H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: C H H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+  - speciesblock: H C Pt
+    nbody:
+      - {type: H C Pt, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: H C Pt, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C Pt Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: H C C Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C H Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: H C C C Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C C Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: H C C H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C C Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C C C Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: H C C H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: H C H H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: H C H H Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C Pt Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: H C H H Pt, nr: [1, 1, 1, 1], nl: [1, 0, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: H C C H Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C C Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: H C H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+  - speciesblock: Pt C H
+    nbody:
+      - {type: Pt C H, nr: [1, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [1, 3], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 2], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [2, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 1], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 1], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 1], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 1], nl: [3, 3], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 2], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 2], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 2], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 3], nl: [0, 0], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 3], nl: [1, 1], c: [0, 0]}
+      - {type: Pt C H, nr: [3, 3], nl: [2, 2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 1], nl: [2, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [1, 2, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [1, 2, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [1, 2, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 1, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [2, 0, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [2, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 1, 2], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 1], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 1], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [0, 2, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 1], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 1], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [1, 1, 2], lint: [2], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [1, 2, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 1], nl: [2, 2, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 2], nl: [0, 0, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 2], nl: [0, 1, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H H, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 2], nl: [1, 0, 1], lint: [1], c: [0, 0]}
+      - {type: Pt C C H, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C H Pt, nr: [2, 2, 2], nl: [1, 1, 0], lint: [0], c: [0, 0]}
+      - {type: Pt C C C H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H H H, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C C H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H H H, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H H Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 0, 1, 1], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C H H, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C C H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C H Pt Pt, nr: [1, 1, 1, 1], nl: [0, 1, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C C C H, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C C H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C H H Pt, nr: [1, 1, 1, 1], nl: [0, 1, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C H H H, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C H H Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 0, 0, 1], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C H H Pt, nr: [1, 1, 1, 1], nl: [1, 0, 1, 0], lint: [1, 1], c: [0, 0]}
+      - {type: Pt C C H H, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C C H Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}
+      - {type: Pt C H Pt Pt, nr: [1, 1, 1, 1], nl: [1, 1, 0, 0], lint: [0, 0], c: [0, 0]}

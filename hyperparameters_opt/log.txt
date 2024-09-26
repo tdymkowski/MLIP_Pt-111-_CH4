@@ -1,0 +1,6 @@
+2024-09-25 12:02:19,046 I - Start pacemaker
+2024-09-25 12:02:19,046 I - Hostname: host15.tc.lic.leidenuniv.nl
+2024-09-25 12:02:19,046 I - Username: tomasz
+2024-09-25 12:02:19,046 I - pacemaker/pyace version: 0.2.7+163.g0ad96ce
+2024-09-25 12:02:19,046 I - ace_evaluator   version: 2023.11.25
+2024-09-25 12:02:19,046 I - Loading input.yaml... 

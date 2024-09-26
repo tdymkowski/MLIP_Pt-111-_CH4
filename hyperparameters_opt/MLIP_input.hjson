@@ -1,0 +1,104 @@
+{
+    "xpot": {
+        fitting_executable: pacemaker
+        project_name: opt_ACE
+        sweep_name: test_ace
+        error_method: rmse
+        alpha: 0.7,        
+    }
+    "cutoff": "skopt.space.Integer(5, 7)",
+    "seed": 42
+    "metadata": {
+        "purpose": "Potential fit"
+        },
+    "data": {
+        "filename": "/home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_full.pckl.gzip",
+        "test_filename": "/home/tomasz/Documents/MLIP_Pt-111_CH4/hyperparameters_opt/df_test.pckl.gzip",
+	"reference_energy": "auto"
+    },
+    "potential": {
+        "deltaSplineBins": 0.001,
+        "elements": ["Pt", "C", "H"],
+        "embeddings": {
+            "ALL": {
+                "npot": "FinnisSinclairShiftedScaled",
+                "fs_parameters": [1, 1, 1, 0.5],
+                "ndensity": 2,
+                "rho_core_cut": 3000,
+                "drho_core_cut": 500
+            }
+        },
+        "bonds": {
+	    "(C, H)": {
+		"radbase": "SBessel",
+		"radparameters": [ "skopt.space.Real(1, 10)"  ],
+		"rcut": 1.09,
+		"dcut": "skopt.space.Real(0.001, 0.1)",
+		"NameOfCutoffFunction": "cos"
+	       },
+            "ALL": {
+                "radbase": "SBessel",
+                "radparameters": ["skopt.space.Real(1, 10)"],
+                "rcut": "skopt.space.Real(1, 6)",
+                "dcut": "skopt.space.Real(0.001, 0.1)",
+                "NameofCutoffFunction": "cos"
+            }
+        },
+        "functions": {
+            "number_of_functions_per_element": "skopt.space.Integer(700,1000)",
+            "ALL": {
+                "nradmax_by_orders": [15,3,2,1],
+                "lmax_by_orders": [0,3,2,1],
+                "coeffs_init": ""
+            },
+        }
+    },
+    "fit": {
+        "loss": {
+            "kappa": "auto",
+            "L1_coeffs": 1e-8,
+            "L2_coeffs": 1e-8,
+            "w0_rad": 1e-8,
+            "w1_rad": 1e-8,
+            "w2_rad": 1e-8,
+            "w1_coeffs": 0,
+            "w2_coeffs": 0,
+            "w_orth": ""
+        },
+        // "weighting": {
+        //     "type": "EnergyBasedWeightingPolicy",
+        //     "filename": "",
+        //     "nfit": 20000,
+        //     "cutoff": "",
+        //     "DEup": 1000,
+        //     "DFup": "",
+        //     "DElow": 1.0,
+        //     "DE": 1,
+        //     "DF": 1,
+        //     "wlow": "",
+        //     "energy": "convex_hull",
+        //     "reftype": "all",
+        //     "seed": 42
+        // },
+        "optimizer": "BFGS",
+        "options": "",
+        "maxiter": 10,
+        "repulsion": "auto",
+        "trainable_parameters": "ALL",
+        "fit_cycles": "",
+        "noise_relative_sigma":"",
+        "noise_absolute_sigma":"",
+        "randomize_func_coeffs": "",
+        //"ladder_step": 1000,
+        //"ladder_type":"power_order",
+        "callbacks":""
+    },
+    "backend": {
+        "evaluator": "tensorpot",
+        "batch_size": 10,
+        "batch_size_reduction": "True",
+        "batch_size_reduction_factor": 2,
+        "display_step": 50,
+        "gpu_config": {"mem_limit": 0}
+    }
+}
